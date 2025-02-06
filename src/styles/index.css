@@ -1,0 +1,11 @@
+@import url(./globalStyles.css);
+@import url(./reset.css);
+@import url(./header.css);
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: var(--gray-8);
+    max-width: 1024px;
+    margin: auto;
+}
+

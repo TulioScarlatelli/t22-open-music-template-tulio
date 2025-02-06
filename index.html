@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/index.css">
     <title>Open Music</title>
   </head>
   <body>
     <!-- CABEÇALHO -->
     <header>
       <!-- DESENVOLVA AQUI OS ELEMENTOS DO CABEÇALHO -->
+      <h1 class="header__title">
+        <span class="header__title--cor">o</span>pen <span class="header__title--cor">m</span>usic
+      </h1>
+      <button class="header__button">
+        <img src="/src/assets/icons/moon-icon.svg" alt="dark mode">
+      </button>
     </header>
 
     <!-- CONTEÚDO PRINCIPAL -->
@@ -16,16 +23,105 @@
       <!-- SEÇÃO DE FILTRO POR GENERO -->
       <section>
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <h2>
+          Gênero Musical
+         </h2>
+         <ul>
+          <li>Todos</li>
+          <li>Pop</li>
+          <li>MPB</li>
+          <li>Forró</li>
+          <li>Samba</li>
+          <li>Baião</li>
+          <li>Rap</li>
+          <li>Hip-Hop</li>
+         </ul>
       </section>
 
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
       <section>
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <div>
+          <h2>
+            Definir Preço
+          </h2>
+          <div>
+            Até 
+          </div>
+         </div>
+         <input type="range">
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
       <section>
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
+         <div>
+          <h2>
+            Albuns Encontrados
+          </h2>
+         </div>
+         <ul>
+          <li>
+            <img src="./src/assets/imgs/cover-1.jpg" alt="">
+            <h3>
+              Acabou o Chorare
+            </h3>
+            <div>
+              <h4>Novos Baianos</h4>
+              <p>MPB</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/assets/imgs/cover-2.jpg" alt="">
+            <h3>
+              The Wall
+            </h3>
+            <div>
+              <h4>Pink Floyd</h4>
+              <p>Rock</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/assets/imgs/cover-3.jpg" alt="">
+            <h3>
+              To Pimp a Butterfly
+            </h3>
+            <div>
+              <h4>Kendrick Lamar</h4>
+              <p>Rap</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/assets/imgs/cover-2.jpg" alt="">
+            <h3>
+              The Wall
+            </h3>
+            <div>
+              <h4>Pink Floyd</h4>
+              <p>Rock</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/assets/imgs/cover-1.jpg" alt="">
+            <h3>
+              Acabou o Chorare
+            </h3>
+            <div>
+              <h4>Novos Baianos</h4>
+              <p>MPB</p>
+            </div>
+          </li>
+          <li>
+            <img src="./src/assets/imgs/cover-3.jpg" alt="">
+            <h3>
+              To Pimp a Butterfly
+            </h3>
+            <div>
+              <h4>Kendrick Lamar</h4>
+              <p>Rap</p>
+            </div>
+          </li>
+         </ul>
       </section>
     </main>
   </body>
