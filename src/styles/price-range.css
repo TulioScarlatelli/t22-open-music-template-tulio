@@ -1,1 +1,48 @@
-/* Estilação */
+.main__price{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 19px;
+}
+
+.main__price--divisao{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--gray-2);
+    font-weight: 600;   
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.main__price--p{
+    display: flex;
+    gap: 6px;
+}
+
+.main__price--p2{
+    color: var(--brand-1);
+}
+
+.main__price--input{
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    background-color: var(--brand-1);
+    border-radius: 0.5rem;
+    height: 0.5rem;
+}
+
+.main__price--input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5rem solid var(--brand-1);
+}
+

@@ -1,8 +1,13 @@
 header{
     display: flex;
     justify-content:space-between;
+    align-items: center;
     padding: 48px 0px 48px 0px;
     border-bottom: 3px solid var(--brand-2);
+    width: 100%;
+    max-width: 1024px;
+    position: fixed;
+    background-color: var(--gray-8);
 }
 
 .header__title{
@@ -11,6 +16,7 @@ header{
     line-height: 48.41px;
     text-align: left;
     text-decoration-skip-ink: none;
+    color: var(--gray-2);
 }
 
 .header__title--cor{
@@ -22,6 +28,7 @@ header{
     height: 36px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .header__button--icon{

@@ -14,111 +14,135 @@
         <span class="header__title--cor">o</span>pen <span class="header__title--cor">m</span>usic
       </h1>
       <button class="header__button">
-        <img src="/src/assets/icons/moon-icon.svg" alt="dark mode">
-      </button>
+        <img class="main__albums--ul--li--image" src="/src/assets/icons/moon-icon.svg" alt="dark mode">
+      </button class="main__albums--ul--li--title">
     </header>
 
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
       <!-- SEÇÃO DE FILTRO POR GENERO -->
-      <section>
+      <section class="main__genres">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
-         <h2>
+         <h2 class="main__genres--title">
           Gênero Musical
          </h2>
-         <ul>
-          <li>Todos</li>
-          <li>Pop</li>
-          <li>MPB</li>
-          <li>Forró</li>
-          <li>Samba</li>
-          <li>Baião</li>
-          <li>Rap</li>
-          <li>Hip-Hop</li>
+         <ul class="main__genres--list">
+          <li class="main__genres--allItems">Todos</li>
+          <li class="main__genres--items">Pop</li>
+          <li class="main__genres--items">MPB</li>
+          <li class="main__genres--items">Forró</li>
+          <li class="main__genres--items">Samba</li>
+          <li class="main__genres--items">Baião</li>
+          <li class="main__genres--items">Rap</li>
+          <li class="main__genres--items">Hip-Hop</li>
          </ul>
       </section>
 
       <!-- SEÇÃO DE FILTRO POR PREÇO -->
-      <section>
+      <section class="main__price">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
-         <div>
-          <h2>
+         <div class="main__price--divisao">
+          <h2 class="main__price--title">
             Definir Preço
           </h2>
-          <div>
-            Até 
-          </div>
+          <p class="main__price--p">
+            Até <span class="main__price--p2">R$ 100</span>
+          </p>
          </div>
-         <input type="range">
+         <input type="range" class="main__price--input">
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
-      <section>
+      <section class="main__albums">
         <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
-         <div>
-          <h2>
+         <div class="main__albums--divisao">
+          <h2 class="main__albums--divisao--title">
             Albuns Encontrados
           </h2>
          </div>
-         <ul>
-          <li>
-            <img src="./src/assets/imgs/cover-1.jpg" alt="">
-            <h3>
+         <ul class="main__albums--list">
+          <li class="main__albums--list--items">
+            <img class="main__albums--list--items--capa" src="./src/assets/imgs/cover-1.jpg" alt="">
+            <h3 class="main__albums--list--items--title">
               Acabou o Chorare
             </h3>
-            <div>
-              <h4>Novos Baianos</h4>
-              <p>MPB</p>
+            <div class="main__albums--list--items--divisao">
+              <h4 class="main__albums--list--items--divisao--h4" >Novos Baianos</h4>
+              <p class="main__albums--list--items--divisao--genero">MPB</p>
+            </div>
+            <div class="main__albums--price">
+              <p class="main__albums--price--valor">R$ 137,91</p>
+              <button class="main__albums--price--comprar">Comprar</button>
             </div>
           </li>
-          <li>
-            <img src="./src/assets/imgs/cover-2.jpg" alt="">
-            <h3>
+          <li class="main__albums--list--items">
+            <img class="main__albums--list--items--capa" src="./src/assets/imgs/cover-2.jpg" alt="">
+            <h3 class="main__albums--list--items--title">
               The Wall
             </h3>
-            <div>
-              <h4>Pink Floyd</h4>
-              <p>Rock</p>
+            <div class="main__albums--list--items--divisao">
+              <h4 class="main__albums--list--items--divisao--h4" >Pink Floyd</h4>
+              <p class="main__albums--list--items--divisao--genero">Rock</p>
+            </div>
+            <div class="main__albums--price">
+              <p class="main__albums--price--valor">R$ 126,56</p>
+              <button class="main__albums--price--comprar">Comprar</button>
             </div>
           </li>
-          <li>
-            <img src="./src/assets/imgs/cover-3.jpg" alt="">
-            <h3>
+          <li class="main__albums--list--items">
+            <img class="main__albums--list--items--capa" src="./src/assets/imgs/cover-3.jpg" alt="">
+            <h3 class="main__albums--list--items--title">
               To Pimp a Butterfly
             </h3>
-            <div>
-              <h4>Kendrick Lamar</h4>
-              <p>Rap</p>
+            <div class="main__albums--list--items--divisao">
+              <h4 class="main__albums--list--items--divisao--h4" >Kendrick Lamar</h4>
+              <p class="main__albums--list--items--divisao--genero">Rap</p>
+            </div>
+            <div class="main__albums--price">
+              <p class="main__albums--price--valor">R$ 102,66</p>
+              <button class="main__albums--price--comprar">Comprar</button>
             </div>
           </li>
-          <li>
-            <img src="./src/assets/imgs/cover-2.jpg" alt="">
-            <h3>
+          <li class="main__albums--list--items">
+            <img class="main__albums--list--items--capa" src="./src/assets/imgs/cover-2.jpg" alt="">
+            <h3 class="main__albums--list--items--title">
               The Wall
             </h3>
-            <div>
-              <h4>Pink Floyd</h4>
-              <p>Rock</p>
+            <div class="main__albums--list--items--divisao">
+              <h4 class="main__albums--list--items--divisao--h4" >Pink Floyd</h4>
+              <p class="main__albums--list--items--divisao--genero">Rock</p>
+            </div>
+            <div class="main__albums--price">
+              <p class="main__albums--price--valor">R$ 123,56</p>
+              <button class="main__albums--price--comprar">Comprar</button>
             </div>
           </li>
-          <li>
-            <img src="./src/assets/imgs/cover-1.jpg" alt="">
-            <h3>
+          <li class="main__albums--list--items">
+            <img class="main__albums--list--items--capa" src="./src/assets/imgs/cover-1.jpg" alt="">
+            <h3 class="main__albums--list--items--title">
               Acabou o Chorare
             </h3>
-            <div>
-              <h4>Novos Baianos</h4>
-              <p>MPB</p>
+            <div class="main__albums--list--items--divisao">
+              <h4 class="main__albums--list--items--divisao--h4" >Novos Baianos</h4>
+              <p class="main__albums--list--items--divisao--genero">MPB</p>
+            </div>
+            <div class="main__albums--price">
+              <p class="main__albums--price--valor">R$ 137,91</p>
+              <button class="main__albums--price--comprar">Comprar</button>
             </div>
           </li>
-          <li>
-            <img src="./src/assets/imgs/cover-3.jpg" alt="">
-            <h3>
+          <li class="main__albums--list--items">
+            <img class="main__albums--list--items--capa" src="./src/assets/imgs/cover-3.jpg" alt="">
+            <h3 class="main__albums--list--items--title">
               To Pimp a Butterfly
             </h3>
-            <div>
-              <h4>Kendrick Lamar</h4>
-              <p>Rap</p>
+            <div class="main__albums--list--items--divisao">
+              <h4 class="main__albums--list--items--divisao--h4" >Kendrick Lamar</h4>
+              <p class="main__albums--list--items--divisao--genero">Rap</p>
+            </div>
+            <div class="main__albums--price">
+              <p class="main__albums--price--valor">R$ 102,66</p>
+              <button class="main__albums--price--comprar">Comprar</button>
             </div>
           </li>
          </ul>

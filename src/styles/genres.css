@@ -1,1 +1,43 @@
-/* Estilação */
+.main__genres{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 14px;
+}
+
+.main__genres--title{
+    padding: 16px 0px 16px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: var(--gray-2);
+}
+
+.main__genres--list{
+    padding: 16px 0px 16px 0px;
+    gap: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main__genres--allItems{
+    padding: 10.2px 11.2px 10.2px 11.2px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: var(--gray-2);
+    color: var(--gray-7);
+    cursor: pointer;
+}
+
+.main__genres--items{
+    padding: 10.2px 11.2px 10.2px 11.2px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: var(--gray-6);
+    color: var(--gray-3);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
