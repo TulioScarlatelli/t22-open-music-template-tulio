@@ -1,6 +1,6 @@
 import { genrensFilter } from "./genres.js";
 import { applyInputRangeStyle } from "./inputRange.js"
-import { renderAlbums } from "./albumsDataBase.js";
+import { renderAlbums } from "./api.js";
 import { darkMode } from "./theme.js";
 
 function routine(){
