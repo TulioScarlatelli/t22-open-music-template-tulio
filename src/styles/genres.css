@@ -13,6 +13,10 @@
     color: var(--gray-2);
 }
 
+.main__genres--title--dark-mode{
+    color: var(--gray-7);
+}
+
 .main__genres--list{
     padding: 16px 0px 16px 0px;
     gap: 25px;
@@ -29,6 +33,11 @@
     cursor: pointer;
 }
 
+.main__genres--allItems--dark-mode{
+    background-color: var(--gray-7);
+    color: var(--gray-2);
+}
+
 .main__genres--items{
     padding: 10.2px 11.2px 10.2px 11.2px;
     gap: 10px;
@@ -40,4 +49,9 @@
     line-height: 19.36px;
     letter-spacing: 0%;
     cursor: pointer;
+}
+
+.main__genres--items--dark-mode{
+    background-color: var(--gray-2);
+    color: var(--gray-6);
 }

@@ -17,6 +17,10 @@
     color: var(--gray-2);
 }
 
+.main__albums--divisao--title--dark-mode{
+    color: var(--gray-7);
+}
+
 .main__albums--list{
     display: flex;
     justify-content: space-between;
@@ -28,6 +32,10 @@
 .main__albums--list--items{
     background-color: var(--gray-7);
     border-radius: 4px;
+}
+
+.main__albums--list--items--dark-mode{
+    background-color: var(--gray-2);
 }
 
 .main__albums--list--items--capa{
@@ -44,11 +52,19 @@
     color: var(--gray-2);
 }
 
+.main__albums--list--items--title--dark-mode{
+    color: var(--gray-7);
+}
+
 .main__albums--list--items--divisao{
     display: flex;
     justify-content: space-between;
     padding: 4px 16px 4px 16px;
     color: var(--gray-3);
+}
+
+.main__albums--list--items--divisao--dark-mode{
+    color: var(--gray-6);
 }
 
 .main__albums--list--items--divisao--h4{
@@ -57,14 +73,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19.36px;
-    color: var(--gray-3);
 }
 
 .main__albums--list--items--divisao--genero{
     font-weight: 400;
     font-size: 16px;
     line-height: 19.36px;
-    color: var(--gray-3);
 }
 
 .main__albums--price{
@@ -80,6 +94,10 @@
     font-size: 19.2px;
     line-height: 23.24px;
     color: var(--gray-2);
+}
+
+.main__albums--price--valor--dark-mode{
+    color: var(--gray-7);
 }
 
 .main__albums--price--comprar{

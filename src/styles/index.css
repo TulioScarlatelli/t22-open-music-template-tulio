@@ -5,11 +5,15 @@
 @import url(./price-range.css);
 @import url(./albums.css);
 
-body{
+.body{
     font-family: "Inter", sans-serif;
     background-color: var(--gray-8);
     max-width: 1024px;
     margin: auto;
+}
+
+.body--dark-mode{
+    background-color: var(--gray-1);
 }
 
 main{
