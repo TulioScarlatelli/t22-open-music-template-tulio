@@ -30,6 +30,7 @@
 }
 
 .main__albums--list--items{
+    display: block;
     background-color: var(--gray-7);
     border-radius: 4px;
 }
