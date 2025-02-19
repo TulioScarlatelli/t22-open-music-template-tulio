@@ -1,3 +1,5 @@
+import { darkMode } from "./theme.js";
+
 async function fazerRequisicao() {
     try {
         const resposta = await fetch('https://openmusic-fake-api.onrender.com/api/musics');
@@ -10,14 +12,14 @@ async function fazerRequisicao() {
 
         const arrayDeObjetos = dadosJson.usuarios || dadosJson;
 
-        console.log(arrayDeObjetos);
+        return arrayDeObjetos
     } catch (erro) {
         console.error('Erro na requisição:', erro);
         return [];
     }
 }
 
-const renderAlbums = async () => {
+const renderAlbumsApi = async () => {
     const albumListContainer = document.querySelector(".main__albums--list");
     const albumList = await fazerRequisicao();
 
@@ -40,6 +42,8 @@ const renderAlbums = async () => {
 
         albumListContainer.appendChild(albumItem);
     });
+    
+    darkMode();
 };
 
-export { renderAlbums }
+export { renderAlbumsApi }

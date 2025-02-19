@@ -1,6 +1,7 @@
 import { genrensFilter } from "./genres.js";
 import { applyInputRangeStyle } from "./inputRange.js"
-import { renderAlbums } from "./api.js";
+import { renderAlbums } from "./albumsDataBase.js";
+import { renderAlbumsApi } from "./api.js";
 import { darkMode } from "./theme.js";
 
 function routine(){
@@ -8,6 +9,7 @@ function routine(){
     genrensFilter();
     applyInputRangeStyle();
     renderAlbums();
+    renderAlbumsApi();
     darkMode();
 
     const priceRange = document.getElementById('priceRange');
